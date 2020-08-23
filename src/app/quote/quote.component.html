@@ -1,7 +1,9 @@
+<div class="row">
 <div>
     <h1>Quotes Application</h1>
     <hr>
-    <ul>
+      <div class="col-md-6">
+      <ul>
         <div *ngFor='let quote of quotes;let i = index'>
           <li>{{quote.name}}</li>
           <button (click)='toggleDetails(i)'>Toggle Details</button>
@@ -9,3 +11,8 @@
         </div>
       </ul>
   </div>
+</div>
+<div class="col-md-6">
+  <app-quote-form></app-quote-form>
+</div>
+</div>
