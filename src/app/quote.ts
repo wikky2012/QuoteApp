@@ -5,7 +5,8 @@ export class Quote {
     public name: string,
     public description: string, 
     public submittedBy: string,
-    public completeDate: Date
+    public completeDate: Date,
+    
     )
 
     {
