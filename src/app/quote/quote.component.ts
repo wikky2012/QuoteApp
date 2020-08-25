@@ -9,9 +9,9 @@ import { Quote } from '../quote';
 export class QuoteComponent implements OnInit {
   
   quotes:Quote[]=[
-    new Quote(1,'The secret of getting ahead is getting started.','Provide description here','Ronoh Wycliffe', new Date(2019,9,14)),
-    new Quote(2,'Only the paranoid survive.','Provide description here','Brian Muchera', new Date(2019,9,14)),
-    new Quote(3,'Everything you can imagine is real.','Provide description here', 'Rose Kimodo',new Date(2019,9,14)),
+    new Quote(1,'The secret of getting ahead is getting started.','To move forward in anything you do is by starting','Ronoh Wycliffe', new Date(2019,9,14)),
+    new Quote(2,'Only the paranoid survive.','Those who can withstand harsh environments will only make','Brian Muchera', new Date(2019,9,14)),
+    new Quote(3,'Everything you can imagine is real.','Real in the sense that it can be achieved', 'Rose Kimodo',new Date(2019,9,14)),
   ]; 
 
   toggleDetails(index){
