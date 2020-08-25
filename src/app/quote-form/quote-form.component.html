@@ -22,7 +22,7 @@
 
         <div class="form-group">
   
-          <label for="author">Author</label>
+          <label for="author">Created By</label>
           <input type="text" class="form-control" id="author" [(ngModel)]="newQuote.submittedBy" name="author" #author='ngModel' required>
         <div [hidden]="author.valid || author.pristine" class="alert alert-danger">
           <p>Name is required</p>
